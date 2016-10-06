@@ -1,0 +1,14 @@
+doctype
+html(lang="ro")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title #{ site_title }
+    link(rel="stylesheet", href="/assets/css/app.css")
+  body(class="page-#{ current.path[0] } #{ current.path.join('-') }")
+    != yield
+    != partial("_partials/_footer")
+    script(src="/assets/js/modernizr.js")
+    script(src="/assets/js/jquery.min.js")
+    script(src="/assets/js/owl.carousel.js")
+    script(src="/assets/js/app.js")

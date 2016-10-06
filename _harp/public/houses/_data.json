@@ -1,0 +1,51 @@
+{
+  "home-matasari": {
+    "name": "Home Matasari",
+    "byline": "Una dintre primele case din Bucuresti",
+    "address": "Mătăsari 17",
+    "gmap": "http://maps.google.ro",
+    "facebook": "http://facebook.com",
+    "images": [
+      "house-matasari-01.jpg"
+    ]
+  },
+  "elisabeta": {
+    "name": "Elisabeta",
+    "byline": "Spatiu locuit de artisti indepdendenti",
+    "address": "Bulevardul Regina Elisabeta, Nr. 37, Etaj 2",
+    "contacts": [
+      {
+        "type": "email",
+        "value": "casaelisabeta@gmail.com"
+      },
+      {
+        "type": "phone",
+        "value": "0724634864"
+      }
+    ],
+    "gmap": "http://maps.google.ro",
+    "facebook": "",
+    "images": [
+      "house-elisabeta-01.jpg",
+      "house-elisabeta-02.jpg"
+    ]
+  },
+  "colivia": {
+    "name": "Colivia",
+    "byline": "Activism palinca pojoreala Chestii trestii",
+    "address": "Pache Protopopescu Nr. 9",
+    "contacts": [
+      {
+        "type": "url",
+        "value": "http://www.funky.ong",
+        "display": "www.funky.ong"
+      }
+    ],
+    "gmap": "",
+    "facebook": "",
+    "images": [
+      "house-colivia-01.jpg",
+      "house-colivia-02.jpg"
+    ]
+  }
+}

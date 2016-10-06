@@ -1,0 +1,122 @@
+header#top
+  .container
+    .row
+      .col-sm-12.col-xs-12.col-sm-12.col-md-5
+        .header__branding
+          h1
+            img(src='/assets/images/logo.png')
+          h2 Un circuit al spatiilor domestic-culturale
+      .col-sm-12.col-xs-12.col-sm-12.col-md-7
+        .header__map
+          img.img-responsive(src='/assets/images/map.png')
+
+article#intro
+  .container
+    .row
+      .col-sm-12
+        p În ultimul timp, cele mai interesante chestii din București se petrec prin case, conace și apartamente, unde s-au adunat comunități care se joacă cu idei tot mai îndrăznețe.
+        p Cei care au avut inițiative social-culturale s-au izbit de multe ori de autorități ostile și un mediu social apatic. Dezamăgiți, s-au retras în spațiul personal, la joburile de zi cu zi și la casele lor. Însă spiritul creativ a continuat să lucreze în cerc restrâns.
+        p Prietenii au început să se implice, apoi prietenii prietenilor, apoi întregi comunități care schimbau idei, făceau proiecte și se distrau de minune. Casele se transformau încet din dormitoare în mici centre culturale.
+        p Fiecare dintre ele a ajuns focar de inovație și de spirit liber, care injectează sens în viețile celor implicați. Împreună pot face o rețea culturală descentralizată, care să umple golul lăsat de instituțiile oficiale și greoaie. E ușor să decapiteze un institut, dar o rețea informală e foarte rezistentă cât timp comunitățile ei sunt vii.
+        p Noaptea Caselor e o punte între aceste comunități. E un eveniment care dă coerență unui nou curent cultural. Mai personal, mai liber, mai eficient, mai mișto.
+        p Haideți cu noi!
+
+article#menu
+  .container
+    .row
+      .col-xs-12.col-sm-6.col-md-4
+        ul.menu
+          li.menu__entry
+            h3.menu__entry__title Home Matasari
+            p.menu__entry__address Mătăsari 17
+            p.menu__entry__gmaps
+              a vezi pe google maps
+          li.menu__entry
+            h3.menu__entry__title Modulab
+            p.menu__entry__address Mătăsari 17
+            p.menu__entry__gmaps
+              a vezi pe google maps
+          li.menu__entry
+            h3.menu__entry__title Elisabeta
+            p.menu__entry__address Mătăsari 17
+            p.menu__entry__gmaps
+              a vezi pe google maps
+          li.menu__entry
+            h3.menu__entry__title Learning House
+            p.menu__entry__address Mătăsari 17
+            p.menu__entry__gmaps
+              a vezi pe google maps
+          li.menu__entry
+            h3.menu__entry__title Cetatea Artelor
+            p.menu__entry__address Mătăsari 17
+            p.menu__entry__gmaps
+              a vezi pe google maps
+
+      .col-xs-12.col-sm-6.col-md-4
+        ul.menu
+          li.menu__entry
+            h3.menu__entry__title Carol 53
+            p.menu__entry__address Stelea Spătarul 13
+            p.menu__entry__gmaps
+              a vezi pe google maps
+          li.menu__entry
+            h3.menu__entry__title Manasia HUB
+            p.menu__entry__address Stelea Spătarul 13
+            p.menu__entry__gmaps
+              a vezi pe google maps
+          li.menu__entry
+            h3.menu__entry__title Visinilor
+            p.menu__entry__address Stelea Spătarul 13
+            p.menu__entry__gmaps
+              a vezi pe google maps
+          li.menu__entry
+            h3.menu__entry__title Alte Lucruri
+            p.menu__entry__address Stelea Spătarul 13
+            p.menu__entry__gmaps
+              a vezi pe google maps
+          li.menu__entry
+            h3.menu__entry__title Pandapanda
+            p.menu__entry__address Stelea Spătarul 13
+            p.menu__entry__gmaps
+              a vezi pe google maps
+
+      .col-xs-12.col-sm-6.col-md-4
+        ul.menu
+          li.menu__entry
+            h3.menu__entry__title Casa Jurnalistului
+            p.menu__entry__address Stelea Spătarul 13
+            p.menu__entry__gmaps
+              a vezi pe google maps
+          li.menu__entry
+            h3.menu__entry__title Art HUB
+            p.menu__entry__address Stelea Spătarul 13
+            p.menu__entry__gmaps
+              a vezi pe google maps
+          li.menu__entry
+            h3.menu__entry__title Chestii Trestii
+            p.menu__entry__address Stelea Spătarul 13
+            p.menu__entry__gmaps
+              a vezi pe google maps
+          li.menu__entry
+            h3.menu__entry__title Bambambam
+            p.menu__entry__address Stelea Spătarul 13
+            p.menu__entry__gmaps
+              a vezi pe google maps
+          li.menu__entry
+            h3.menu__entry__title Manasia HUB
+            p.menu__entry__address Bd. NumelungdeStradă AreLoc 21
+            p.menu__entry__gmaps
+              a vezi pe google maps
+
+each house, slug in public.houses._data
+  - house.yield = partial("/houses/" + slug, house)
+  - house.slug = slug
+  != partial("/_partials/_house", house)
+  //- article.house
+  //-   .container
+  //-     .row
+  //-       p #{ house.name }
+  //-       p #{ slug }
+
+//- each post, slug in public.posts._data
+//-   != partial("/posts/" + slug, post)
