@@ -6,7 +6,7 @@ article.house(id='#{slug}')
           h3 #{byline}
         .house-carousel
           each image in images
-            div.house-carousel__image(style='background-image:url("/assets/images/#{image}")')
+            div.house-carousel__image(style='background-image:url("./assets/images/#{image}")')
 
         if facebook != '' || gmap != ''
           ul.house-externals
