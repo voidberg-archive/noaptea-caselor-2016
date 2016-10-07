@@ -1,0 +1,62 @@
+#menu {
+  background-color: @main_color;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+
+  background-image: url(../images/moon-top-inverted.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+
+  ul.menu {
+    padding: 0;
+    list-style-type: none;
+
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+
+    .menu__entry {
+      color: white;
+      margin-bottom: 3rem;
+      page-break-inside: avoid;
+      -webkit-column-break-inside: avoid;
+      break-inside: avoid;
+
+      .menu__entry__title {
+        margin-top: 0;
+        font-size: 1.3em;
+      }
+
+      .menu__entry__address {
+        font-size: 1.7rem;
+      }
+
+      .menu__entry__gmaps {
+        font-size: 1.5rem;
+      }
+
+      a {
+        color: white;
+      }
+    }
+  }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm) {
+  #menu {
+    ul.menu {
+      -webkit-column-count: 3;
+      -moz-column-count: 3;
+      column-count: 3;
+    }
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg) {
+}

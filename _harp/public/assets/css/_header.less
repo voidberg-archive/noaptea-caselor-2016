@@ -1,0 +1,32 @@
+header {
+  h2 {
+    color: @main_color;
+  }
+
+  .header__branding {
+    text-align: center;
+  }
+
+  .header__map {
+    text-align: center;
+
+    img {
+      margin: 0 auto;
+    }
+  }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm) {}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md) {
+  header {
+    .header__branding {
+      margin-top: 150px;
+    }
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg) {}

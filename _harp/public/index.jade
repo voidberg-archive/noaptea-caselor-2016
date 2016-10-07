@@ -24,99 +24,18 @@ article#intro
 article#menu
   .container
     .row
-      .col-xs-12.col-sm-6.col-md-4
+      .col-xs-12
         ul.menu
-          li.menu__entry
-            h3.menu__entry__title Home Matasari
-            p.menu__entry__address Mătăsari 17
-            p.menu__entry__gmaps
-              a vezi pe google maps
-          li.menu__entry
-            h3.menu__entry__title Modulab
-            p.menu__entry__address Mătăsari 17
-            p.menu__entry__gmaps
-              a vezi pe google maps
-          li.menu__entry
-            h3.menu__entry__title Elisabeta
-            p.menu__entry__address Mătăsari 17
-            p.menu__entry__gmaps
-              a vezi pe google maps
-          li.menu__entry
-            h3.menu__entry__title Learning House
-            p.menu__entry__address Mătăsari 17
-            p.menu__entry__gmaps
-              a vezi pe google maps
-          li.menu__entry
-            h3.menu__entry__title Cetatea Artelor
-            p.menu__entry__address Mătăsari 17
-            p.menu__entry__gmaps
-              a vezi pe google maps
-
-      .col-xs-12.col-sm-6.col-md-4
-        ul.menu
-          li.menu__entry
-            h3.menu__entry__title Carol 53
-            p.menu__entry__address Stelea Spătarul 13
-            p.menu__entry__gmaps
-              a vezi pe google maps
-          li.menu__entry
-            h3.menu__entry__title Manasia HUB
-            p.menu__entry__address Stelea Spătarul 13
-            p.menu__entry__gmaps
-              a vezi pe google maps
-          li.menu__entry
-            h3.menu__entry__title Visinilor
-            p.menu__entry__address Stelea Spătarul 13
-            p.menu__entry__gmaps
-              a vezi pe google maps
-          li.menu__entry
-            h3.menu__entry__title Alte Lucruri
-            p.menu__entry__address Stelea Spătarul 13
-            p.menu__entry__gmaps
-              a vezi pe google maps
-          li.menu__entry
-            h3.menu__entry__title Pandapanda
-            p.menu__entry__address Stelea Spătarul 13
-            p.menu__entry__gmaps
-              a vezi pe google maps
-
-      .col-xs-12.col-sm-6.col-md-4
-        ul.menu
-          li.menu__entry
-            h3.menu__entry__title Casa Jurnalistului
-            p.menu__entry__address Stelea Spătarul 13
-            p.menu__entry__gmaps
-              a vezi pe google maps
-          li.menu__entry
-            h3.menu__entry__title Art HUB
-            p.menu__entry__address Stelea Spătarul 13
-            p.menu__entry__gmaps
-              a vezi pe google maps
-          li.menu__entry
-            h3.menu__entry__title Chestii Trestii
-            p.menu__entry__address Stelea Spătarul 13
-            p.menu__entry__gmaps
-              a vezi pe google maps
-          li.menu__entry
-            h3.menu__entry__title Bambambam
-            p.menu__entry__address Stelea Spătarul 13
-            p.menu__entry__gmaps
-              a vezi pe google maps
-          li.menu__entry
-            h3.menu__entry__title Manasia HUB
-            p.menu__entry__address Bd. NumelungdeStradă AreLoc 21
-            p.menu__entry__gmaps
-              a vezi pe google maps
+          each house, slug in public.houses._data
+            li.menu__entry
+              h3.menu__entry__title
+                a(href='##{slug}') #{house.name}
+              p.menu__entry__address
+                a(href='##{slug}') #{house.address}
+              p.menu__entry__gmaps
+                a(href='#{house.gmap}') vezi pe google maps
 
 each house, slug in public.houses._data
   - house.yield = partial("/houses/" + slug, house)
   - house.slug = slug
   != partial("/_partials/_house", house)
-  //- article.house
-  //-   .container
-  //-     .row
-  //-       p #{ house.name }
-  //-       p #{ slug }
-
-//- each post, slug in public.posts._data
-//-   != partial("/posts/" + slug, post)
