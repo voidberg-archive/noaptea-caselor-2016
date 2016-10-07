@@ -5,7 +5,9 @@
     "address": "Calderon 25",
     "gmap": "https://www.google.com/maps/d/u/0/viewer?mid=1bS7E6V6SORxs2UeDWkOqCsQgzVk",
     "facebook": "https://www.facebook.com/aiciarhitectura",
-    "images": []
+    "images": [
+      "house-aici-01.jpg"
+    ]
   },
   "avanpost8": {
     "name": "Avanpost8",
@@ -13,7 +15,9 @@
     "address": "Crăciun 8",
     "gmap": "https://www.google.com/maps/d/u/0/viewer?mid=1bS7E6V6SORxs2UeDWkOqCsQgzVk",
     "facebook": "https://www.facebook.com/avanpost8/",
-    "images": []
+    "images": [
+      "house-avanpost-01.jpg"
+    ]
   },
   "carol53": {
     "name": "Carol53",
@@ -21,7 +25,9 @@
     "address": "Carol I. 53",
     "gmap": "https://www.google.com/maps/d/u/0/viewer?mid=1bS7E6V6SORxs2UeDWkOqCsQgzVk",
     "facebook": "https://www.facebook.com/casacarol53/",
-    "images": []
+    "images": [
+      "house-carol-01.jpg"
+    ]
   },
   "casa-jurnalistului": {
     "name": "Casa Jurnalistului",
@@ -29,7 +35,9 @@
     "address": "Viitorului 154",
     "gmap": "https://www.google.com/maps/d/u/0/viewer?mid=1bS7E6V6SORxs2UeDWkOqCsQgzVk",
     "facebook": "https://www.facebook.com/casa.jurnalistului/",
-    "images": []
+    "images": [
+      "house-jurnalistului-01.png"
+    ]
   },
   "casa-lupu": {
     "name": "Casa Lupu",
@@ -37,7 +45,9 @@
     "address": "Dionisie Lupu 31",
     "gmap": "https://www.google.com/maps/d/u/0/viewer?mid=1bS7E6V6SORxs2UeDWkOqCsQgzVk",
     "facebook": "https://www.facebook.com/Casa-Lupu-706034536194545/",
-    "images": []
+    "images": [
+      "house-lupu-01.jpg"
+    ]
   },
   "cetatea-artelor": {
     "name": "Cetatea Artelor",
@@ -45,11 +55,13 @@
     "address": "Henri Coandă 38",
     "gmap": "https://www.google.com/maps/d/u/0/viewer?mid=1bS7E6V6SORxs2UeDWkOqCsQgzVk",
     "facebook": "https://www.facebook.com/centrulcetateaartelor/",
-    "images": []
+    "images": [
+      "house-cetatea-01.jpg"
+    ]
   },
   "colivia": {
     "name": "Colivia",
-    "byline": "Activism palinca pojoreala Chestii trestii",
+    "byline": "",
     "address": "Pache Protopopescu 9",
     "contacts": [
       {
@@ -61,8 +73,7 @@
     "gmap": "https://www.google.com/maps/d/u/0/viewer?mid=1bS7E6V6SORxs2UeDWkOqCsQgzVk",
     "facebook": "https://www.facebook.com/ColiviaLuVrabioiu/",
     "images": [
-      "house-colivia-01.jpg",
-      "house-colivia-02.jpg"
+      "house-colivia-01.jpg"
     ]
   },
   "czvl12": {
@@ -71,7 +82,9 @@
     "address": "Luigi Cazzavillan 12",
     "gmap": "https://www.google.com/maps/d/u/0/viewer?mid=1bS7E6V6SORxs2UeDWkOqCsQgzVk",
     "facebook": "https://www.facebook.com/CZLV12/",
-    "images": []
+    "images": [
+      "house-czvl-01.jpg"
+    ]
   },
   "efden": {
     "name": "EFdeN",
@@ -79,7 +92,9 @@
     "address": "Pache Protopopescu 66",
     "gmap": "https://www.google.com/maps/d/u/0/viewer?mid=1bS7E6V6SORxs2UeDWkOqCsQgzVk",
     "facebook": "https://www.facebook.com/EFdeN.casa.solara.eficienta.energetic/",
-    "images": []
+    "images": [
+      "house-efden-01.jpg"
+    ]
   },
   "gradina-sticlarilor": {
     "name": "Gradina Sticlarilor",
@@ -87,11 +102,13 @@
     "address": "Vasile Lascăr 36",
     "gmap": "https://www.google.com/maps/d/u/0/viewer?mid=1bS7E6V6SORxs2UeDWkOqCsQgzVk",
     "facebook": "https://www.facebook.com/gradinasticlarilor/",
-    "images": []
+    "images": [
+      "house-gradina-01.jpg"
+    ]
   },
   "home-matasari": {
     "name": "Home Matasari",
-    "byline": "Una dintre primele case din Bucuresti",
+    "byline": "",
     "address": "Mătăsari 17",
     "gmap": "https://www.google.com/maps/d/u/0/viewer?mid=1bS7E6V6SORxs2UeDWkOqCsQgzVk",
     "facebook": "https://www.facebook.com/Home-Matasari-111608808922130/",
@@ -105,7 +122,9 @@
     "address": "Theodor Aman 42",
     "gmap": "https://www.google.com/maps/d/u/0/viewer?mid=1bS7E6V6SORxs2UeDWkOqCsQgzVk",
     "facebook": "https://www.facebook.com/insula42/",
-    "images": []
+    "images": [
+      "house-insula-01.jpg"
+    ]
   },
   "manasia-hub": {
     "name": "Manasia Hub",
@@ -113,7 +132,9 @@
     "address": "Stelea Spătarul 13",
     "gmap": "https://www.google.com/maps/d/u/0/viewer?mid=1bS7E6V6SORxs2UeDWkOqCsQgzVk",
     "facebook": "https://www.facebook.com/manasiahub/",
-    "images": []
+    "images": [
+      "house-manasia-01.jpg"
+    ]
   },
   "modulab": {
     "name": "Modulab",
@@ -121,14 +142,18 @@
     "address": "Viitorului 153",
     "gmap": "https://www.google.com/maps/d/u/0/viewer?mid=1bS7E6V6SORxs2UeDWkOqCsQgzVk",
     "facebook": "https://www.facebook.com/gradinaviitorului.ro/",
-    "images": []
+    "images": [
+      "house-modulab-01.jpg"
+    ]
   },
   "the-room": {
     "name": "The Room",
-    "byline": "Spatiu locuit de artisti indepdendenti",
+    "byline": "",
     "address": "Intrarea Mihai Eminescu 5",
     "gmap": "https://www.google.com/maps/d/u/0/viewer?mid=1bS7E6V6SORxs2UeDWkOqCsQgzVk",
     "facebook": "https://www.facebook.com/seabamgallery/",
-    "images": []
+    "images": [
+      "house-room-01.jpg"
+    ]
   }
 }
