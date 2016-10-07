@@ -33,7 +33,7 @@ article#menu
               p.menu__entry__address
                 a(href='##{slug}') #{house.address}
               p.menu__entry__gmaps
-                a(href='#{house.gmap}') vezi pe google maps
+                a(href='#{house.gmap}', target='_blank') vezi pe google maps
 
 each house, slug in public.houses._data
   - house.yield = partial("/houses/" + slug, house)
